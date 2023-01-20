@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    color: #333;
+    color: blue;
     text-align: center;
 }
 
@@ -44,4 +44,8 @@ body {
 
 .post {
     padding: 10px;
+}
+
+.post p {
+    padding: 5px;
 }
