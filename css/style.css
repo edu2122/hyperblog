@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial;
+}
+
+body {
+    color: #333;
+    text-align: center;
+}
+
+.cabecera {
+    background-color: #33a;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    padding: 8.5px;
+}
+
+.cabecera #tagline {
+    margin: 0 0 0 10px ;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.container {
+    width: 70%;
+    padding: 0;
+    margin: 20px auto;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.post {
+    padding: 10px;
+}
+
+.post p {
+    padding: 5px;
+}
