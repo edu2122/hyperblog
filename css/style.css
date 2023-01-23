@@ -12,29 +12,43 @@ html {
 body {
     color: #333;
     text-align: center;
+    background-color: #333;
 }
 
 .cabecera {
+    border-radius: 5px;
     background-color: #33a;
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.75);
+    font-size: 1.8rem;
     font-weight: bold;
     color: white;
     margin-bottom: 5px;
     padding: 8.5px;
 }
 
-.cabecera #tagline {
+.cabecera img {
+    justify-content: center;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+
+}
+
+.cabecera .tagline {
     margin: 0 0 0 10px ;
     font-weight: normal;
     font-size: 0.8rem;
 }
 
 .container {
+    background-color: white;
     width: 70%;
-    padding: 0;
-    margin: 20px auto;
+    height: 100vh;
+    margin: 6px auto;
     text-align: left;
     border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 .container h1 {
