@@ -49,3 +49,11 @@ body {
 .post p {
     padding: 5px;
 }
+
+.footer {
+    background-color: #777;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
