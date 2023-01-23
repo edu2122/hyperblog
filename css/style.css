@@ -44,7 +44,7 @@ body {
 .container {
     background-color: white;
     width: 70%;
-    height: 100vh;
+    
     margin: 6px auto;
     text-align: left;
     border: 1px solid #ddd;
@@ -63,3 +63,4 @@ body {
 .post p {
     padding: 5px;
 }
+
